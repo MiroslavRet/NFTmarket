@@ -164,11 +164,11 @@ export default function ButtonCreateCampaign(props: {
                   <DatePicker
                     hideTimeZone
                     showMonthAndYearPickers
-                    defaultValue={now(timezone)}
+                    defaultValue={now(timezone) as any}
                     isDisabled={isSubmittingTx}
                     label="Set Deadline"
-                    minValue={blockTime}
-                    onChange={setCampaignDeadline}
+                    minValue={blockTime as any}
+                    onChange={setCampaignDeadline as any}
                   />
                 </Skeleton>
               </ModalBody>

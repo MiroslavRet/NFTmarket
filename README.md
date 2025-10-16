@@ -1,4 +1,80 @@
-# crowdfunding_b
+# Cardano dApp Template - Production Ready Crowdfunding Platform
+
+A complete, production-ready Cardano blockchain dApp template featuring a fully functional crowdfunding platform. Built with Aiken (Plutus v3), Lucid Evolution, Next.js 14, and TypeScript.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+cd offchain && npm install
+
+# Build smart contracts
+npm run aiken:build
+
+# Set up environment
+cp .env.example .env
+
+# Run development server
+npm run dev
+```
+
+## 📚 Documentation
+
+Choose your path:
+
+### For New Users
+- **[TEMPLATE_SUMMARY.md](./TEMPLATE_SUMMARY.md)** - Start here! Quick overview of what this template offers
+
+### For Developers
+- **[TEMPLATE_README.md](./TEMPLATE_README.md)** - Complete usage guide with examples and patterns
+
+### For Bolt.new Users
+- **[BOLT_NEW_USAGE.md](./BOLT_NEW_USAGE.md)** - How to use this template in Bolt.new with AI assistance
+
+### For Technical Reference
+- **[CARDANO_DAPP_GENERATION_GUIDE.md](./CARDANO_DAPP_GENERATION_GUIDE.md)** - Complete technical specifications and requirements
+
+---
+
+## ✨ What's Included
+
+### Working Crowdfunding Platform
+- ✅ Create campaigns with goals and deadlines
+- ✅ Accept backer contributions in ADA
+- ✅ Collect funds when goal is reached
+- ✅ Automatic refunds for failed campaigns
+- ✅ Platform admin dashboard
+- ✅ Security testing tools
+
+### Technical Stack
+- **Smart Contracts**: Aiken with Plutus v3
+- **Blockchain**: Lucid Evolution v0.4+
+- **Frontend**: Next.js 14+ with TypeScript
+- **UI**: NextUI + Tailwind CSS
+- **Wallet**: All CIP-30 compatible wallets
+
+### Key Features
+- ✅ Parameterized validators
+- ✅ State token NFT for campaigns
+- ✅ Multi-action validator (mint + spend)
+- ✅ Time-based validations
+- ✅ Signature verification
+- ✅ Complete type safety
+
+---
+
+## 🎯 Use This Template For
+
+- **Learning**: Understand Cardano dApp development patterns
+- **Building**: Start your own Cardano project with proven architecture
+- **Customizing**: Adapt the crowdfunding logic to your use case
+- **Production**: Deploy with confidence - it's battle-tested
+
+---
+
+## 📖 Crowdfunding Platform Documentation
 
 ![Crowdfunding Actions](https://github.com/user-attachments/assets/17d62e6c-bd80-47e6-acfd-ca5e5fb9a43a)
 

@@ -1,12 +1,15 @@
 {
-  "name": "aiken-crowdfundz",
-  "version": "0.0.1",
+  "name": "cardano-dapp-template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
+    "aiken:build": "cd .. && aiken build",
+    "aiken:check": "cd .. && aiken check",
+    "aiken:test": "cd .. && aiken check -v"
   },
   "dependencies": {
     "@internationalized/date": "^3.6.0",
